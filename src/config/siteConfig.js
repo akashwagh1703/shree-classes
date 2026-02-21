@@ -1,109 +1,131 @@
 export const siteConfig = {
-  name: "Guruji Academy",
-  address: "Bytco Point, 2nd Floor, Pratik Arcade, opp. to Khan Petrol Pump, Nashik Road, Nashik, Maharashtra 422101, India",
-  phone: "+919272053369",
-  rating: 4.8,
-  whatsapp: "919272053369",
-  
+  name: "Shree Classes",
+  address:
+    "Nashik Road, Near Bytco Point Area, Nashik, Maharashtra 422101, India",
+  phone: "+919822882965", // Replace with actual number
+  rating: 4.7,
+  whatsapp: "919822882965", // Replace with actual WhatsApp number
+
   hero: {
-    title: "Guruji Academy",
-    subtitle: "Excellence in Education",
-    description: "Empowering students with quality education and personalized guidance for academic success.",
+    title: "Shree Classes",
+    subtitle: "Building Strong Academic Foundations",
+    description:
+      "Shree Classes focuses on academic excellence with structured learning, conceptual clarity, and individual attention for every student.",
     cta1: "Enroll Now",
-    cta2: "View Courses"
+    cta2: "Explore Courses"
   },
-  
+
   heroSlides: [
     {
-      image: "https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&fit=crop",
-      alt: "Indian students studying"
+      image:
+        "https://images.pexels.com/photos/4144223/pexels-photo-4144223.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      alt: "Students classroom session"
     },
     {
-      image: "https://images.pexels.com/photos/8197543/pexels-photo-8197543.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&fit=crop",
-      alt: "Indian classroom learning"
+      image:
+        "https://images.pexels.com/photos/8471776/pexels-photo-8471776.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      alt: "Teacher explaining concept"
     },
     {
-      image: "https://images.pexels.com/photos/5905857/pexels-photo-5905857.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&fit=crop",
-      alt: "Indian students success"
+      image:
+        "https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      alt: "Students studying together"
     }
   ],
-  
+
   about: {
     title: "About Us",
-    description: "Guruji Academy is dedicated to providing high-quality education with a focus on individual student growth. Our experienced faculty and proven teaching methods ensure students achieve their academic goals."
+    description:
+      "Shree Classes is committed to providing quality education with a disciplined learning environment. We focus on concept clarity, exam preparation strategies, and continuous performance improvement."
   },
-  
+
   courses: [
     {
       id: 1,
-      name: "Class 10th",
-      subjects: "All Subjects",
-      description: "Complete board exam preparation"
+      name: "Class 8th & 9th",
+      subjects: "Mathematics, Science, English",
+      description: "Strong foundation building for higher academic success"
     },
     {
       id: 2,
-      name: "Class 12th",
-      subjects: "Science & Commerce",
-      description: "HSC board focused coaching"
+      name: "Class 10th Board",
+      subjects: "All Subjects",
+      description: "Complete SSC board preparation with test series"
     },
     {
       id: 3,
-      name: "JEE/NEET",
-      subjects: "PCM & PCB",
-      description: "Engineering & medical entrance prep"
+      name: "Class 11th & 12th",
+      subjects: "Science & Commerce",
+      description: "HSC board-focused preparation with regular assessments"
     },
     {
       id: 4,
-      name: "Foundation",
-      subjects: "Class 8th & 9th",
-      description: "Strong conceptual foundation"
+      name: "CET / NEET Foundation",
+      subjects: "Physics, Chemistry, Biology, Maths",
+      description: "Entrance exam oriented coaching with practice tests"
+    },
+    {
+      id: 5,
+      name: "Crash Course Program",
+      subjects: "Board Exam Revision",
+      description: "Short-term revision batches before board examinations"
     }
   ],
-  
+
   features: [
     {
       id: 1,
-      title: "Experienced Faculty",
-      description: "Learn from qualified and dedicated teachers"
+      title: "Experienced & Dedicated Faculty",
+      description:
+        "Qualified teachers focused on conceptual clarity and exam preparation."
     },
     {
       id: 2,
-      title: "Small Batch Size",
-      description: "Personalized attention to every student"
+      title: "Limited Batch Size",
+      description:
+        "Ensuring individual attention and doubt-solving sessions."
     },
     {
       id: 3,
-      title: "Regular Tests",
-      description: "Continuous assessment and feedback"
+      title: "Regular Test Series",
+      description:
+        "Weekly and monthly assessments to track student performance."
     },
     {
       id: 4,
-      title: "Study Material",
-      description: "Comprehensive notes and practice papers"
+      title: "Result-Oriented Approach",
+      description:
+        "Structured study plans designed to maximize academic performance."
     }
   ],
-  
+
   testimonials: [
     {
       id: 1,
-      name: "Priya Sharma",
-      course: "Class 12th",
-      text: "Excellent teaching methods and supportive faculty. Highly recommended for board exam preparation.",
-      image: "https://ui-avatars.com/api/?name=Priya+Sharma&background=1e3a8a&color=fff&size=200"
+      name: "Amit Kulkarni",
+      course: "Class 10th",
+      text:
+        "The teaching style is very clear and structured. Regular tests helped improve my board performance.",
+      image:
+        "https://ui-avatars.com/api/?name=Amit+Kulkarni&background=1e3a8a&color=fff&size=200"
     },
     {
       id: 2,
-      name: "Rahul Patil",
-      course: "JEE Preparation",
-      text: "The coaching helped me build strong fundamentals. Great environment for competitive exam preparation.",
-      image: "https://ui-avatars.com/api/?name=Rahul+Patil&background=1e3a8a&color=fff&size=200"
+      name: "Riya Joshi",
+      course: "Class 12th Science",
+      text:
+        "Shree Classes helped me strengthen my concepts and prepare confidently for exams.",
+      image:
+        "https://ui-avatars.com/api/?name=Riya+Joshi&background=1e3a8a&color=fff&size=200"
     },
     {
       id: 3,
-      name: "Sneha Deshmukh",
-      course: "Class 10th",
-      text: "Best coaching in Nashik. Teachers are very helpful and explain concepts clearly.",
-      image: "https://ui-avatars.com/api/?name=Sneha+Deshmukh&background=1e3a8a&color=fff&size=200"
+      name: "Sanket Patil",
+      course: "CET Preparation",
+      text:
+        "Very supportive faculty and excellent study material for competitive exams.",
+      image:
+        "https://ui-avatars.com/api/?name=Sanket+Patil&background=1e3a8a&color=fff&size=200"
     }
   ]
 };
